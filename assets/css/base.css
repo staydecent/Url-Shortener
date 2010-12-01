@@ -1,0 +1,47 @@
+/*
+ * RESET
+ */
+h1,h2,h3,h4,h5,h6,address,blockquote,div,p,pre,code,body,dl,dt,dd,ol,ul,li,fieldset,form,input,legend,textarea { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; border: 0; font-size: 11px; }
+
+/*
+ * STRUCTURE
+ */
+html, body { width: 100%; height: 100%; margin: 0 0 1px 0; background: #fff url(../img/bg-body-gradient.gif) repeat-x; }
+body { font: 62.5% 'Lucida Grande', 'Lucida Sans', Helvetica, Arial, sans-serif; /* 10px if browser default is 16px */color: #1a1a1a;}
+
+/*
+ * TEXT
+ */
+abbr, acronym { border-bottom: 1px dotted #aaa; font: 400 1.0em Consolas, monospace; font-style: italic; }
+address, cite, dfn, em, var { font-style: italic; }
+code, kbd, samp, pre { font: 400 1.0em Consolas, monospace; }
+blockquote { padding: 1.0em 1.0em 1.0em 2.0em; font: 2.0em Georgia, serif; color: #333; }
+table p { margin: 10px 0; }
+strong { font-weight: 800; }
+small { font: 0.9em Helvetica, Arial, sans-serif; }
+h1 { font: 400 3.0em Verdana, Helvetica, Arial, sans-serif; }	/* 36px(inside wrapper) */
+h2 { font: 400 2.0em Verdana, Helvetica, Arial, sans-serif; } 	/* 24px(inside wrapper) */
+h3 { font: 400 1.5em Verdana, Helvetica, Arial, sans-serif; } 	/* 12px(inside wrapper) */
+h4, h5, h6 { font: 800 1.0em Helvetica, Arial, sans-serif; } 	/* 12px(inside wrapper) */
+
+/*
+ * HYPERTEXT 
+ */
+a { color: #6699cc; text-decoration: none; border-bottom: 1px solid #414e55; }
+a:active, a:focus, a:hover { color: #3ab84f; }
+a:visited { border: 0; text-decoration: none; }
+a.active { font-weight: 800; }
+
+/*
+ * LIST 
+ */
+ol, ul { padding: 0px; }
+ol li { list-style: none inside none; }
+ul li { list-style: none outside none; margin: 1.0em 0 0 0; }
+
+/*
+ * IMAGE
+ */
+img { border: 0; vertical-align: bottom; margin: 0; }
+a img { margin: 0 0 0.50em; border: 0; }

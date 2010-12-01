@@ -1,0 +1,125 @@
+/*
+ * RESET
+ */
+h1,h2,h3,h4,h5,h6,address,blockquote,div,p,pre,code,body,dl,dt,dd,ol,ul,li,fieldset,form,input,legend,textarea { margin: 0; padding: 0; }
+small { font-size: 0.7em; }
+
+/*
+ * STRUCTURE
+ */
+html, body { width: 100%; height: 100%; margin: 0; }
+body { font: 62.5% 'Trebuchet MS', Helvetica, Arial, sans-serif; /* 10px if browser default is 16px */color: #1a1a1a; }
+
+/**
+ *	PANEL
+ */
+#container {
+
+}
+#panel {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	overflow: hidden;
+	background-color: #efefef;
+	border-right: 2px solid #c7c7c7;
+}
+#panel .inner {
+	padding: 10px;
+}
+.header {
+	height: 39px;
+}
+.frame-title {
+	width: 125px;
+	height: 39px;
+	background-image: url(../img/logo-frame-size.gif);
+	background-position: -2px 0;
+}
+#scroll {
+	position: relative;
+	width: 100%;
+	height: 80%;
+	overflow-y: scroll;
+	margin: 10px 0;
+}
+#frame {
+	position: fixed;
+	top: 0;
+	left: 300px;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+
+/**
+ * COMMENTS
+ */
+.comment {
+	margin: 0 10px 10px 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	font-size: 1.2em;
+}
+.comment .meta {
+	width: 65px;
+}
+.author .name {
+	color: #225b83;
+}
+.date {
+	font-size: 0.8em;
+}
+.body {
+	width: 185px;
+	font-size: 11px;
+	line-height: 14px;
+}
+/**
+ * COMMENTS
+ * -- Main Comment
+ */
+#comment-0 {
+	background: #fffed9;
+}
+
+/**
+ * COMMON
+ */
+.notice {
+	width: 80%;
+	padding: 5px;
+	margin: 10px auto;
+	background: #fffce1;
+	color: #e98809;
+	border: 1px solid;
+}
+.seperator {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.col50 {
+	width: 65%;
+}
+.floatl {
+	float: left;
+}
+.floatr {
+	float: right;
+}
+.img-replace {
+	text-indent: -9999px;
+	overflow: hidden;
+}
+a.block {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.clearFix:after	{ content: " "; display: block; height: 0 ; clear: both; visibility: hidden; }
+*:first-child+html .clearFix { height: 1%; } /* WinIE7 only */
+/*?*/ * html .clearFix { height:1%; } /* WinIE6 and below */ /**/

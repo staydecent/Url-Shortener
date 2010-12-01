@@ -1,0 +1,74 @@
+/**
+ * HOMEPAGE (add form)
+ */
+#chym-form {
+	width: 566px;
+	height: 46px;
+	background: transparent url(../img/bg-form.gif) no-repeat top left;
+}
+#chym-form form {
+	padding: 3px;
+}
+.chym-input {
+	font: 12px 'Licida Grande', Arial, sans-serif;
+	color: #999;
+}
+#input-url {
+	width: 370px;
+	padding: 12px 10px;
+	margin-right: 10px;
+	border: 1px solid #c3c1c1;
+}
+.button-start {
+	width: 158px;
+	height: 40px;
+	background-image: url(../img/button-start.gif);
+	background-position: -11px -10px;
+	border: 0;
+	cursor: pointer;
+}
+.button-start:hover {
+	background-position: -11px -60px;
+}
+/**
+ * HOMEPAGE
+ * - body
+ */
+#about-col {
+	background: transparent url(../img/q_mark.gif) no-repeat top left;
+}
+#about-menu {
+	margin-left: 51px;
+}
+div.date {
+	width: 70px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #99ccff;
+}
+div.subscribe {
+	background: #383838;
+	padding: 10px;
+	margin: 10px 0;
+}
+input.subscribe {
+	width: 164px; /* 174px */
+	height: 20px; /* 30px */
+	padding: 5px;
+	background-image: url(../img/input-subscribe.gif);
+	border: 0;
+}
+button.subscribe {
+	width: 80px;
+	height: 34px;
+	background-image: url(../img/button-subscribe.gif);
+	background-position: -10px -10px;
+	border: 0;
+	cursor: pointer;
+}
+button.subscribe:hover {
+	background-position: -10px -50px;
+}
+div#button-subscribe {
+	margin-left: 4px;
+}
