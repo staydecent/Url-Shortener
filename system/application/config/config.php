@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://postit.engineanalog.com/";
+$config['base_url']	= "EDIT ME";
 
 /*
 |--------------------------------------------------------------------------
