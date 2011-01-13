@@ -37,10 +37,10 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "mysql.postit.engineanalog.com";
-$db['default']['username'] = "tidal";
-$db['default']['password'] = "ringt0nes";
-$db['default']['database'] = "dbpostit";
+$db['default']['hostname'] = "localhost";
+$db['default']['username'] = "root";
+$db['default']['password'] = "";
+$db['default']['database'] = "urlshortener";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
